@@ -1,8 +1,13 @@
 OPTION_DICT = {
 
-    "mp3": {
+    "mp3(192kbps)": {
         "format": "bestaudio",
         "postprocessors": [{"key":"FFmpegExtractAudio","preferredcodec":"mp3","preferredquality":"192"}]
+    },
+
+    "mp3(64kbps)": {
+        "format": "bestaudio",
+        "postprocessors": [{"key":"FFmpegExtractAudio","preferredcodec":"mp3","preferredquality":"64"}]
     },
 
     "mp4": {
