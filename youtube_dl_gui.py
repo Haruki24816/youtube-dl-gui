@@ -4,7 +4,8 @@ import tkinter
 from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
-import youtube_dl
+#import youtube_dl
+import yt_dlp as youtube_dl
 import option_dict
 
 
